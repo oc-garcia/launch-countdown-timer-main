@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+:root {
+  --Grayish-blue: hsl(237, 18%, 59%);
+  --Soft-red: hsl(345, 95%, 68%);
+
+  --White: hsl(0, 0%, 100%);
+  --Dark-desaturated-blue: hsl(236, 21%, 26%);
+  --Very-dark-blue: hsl(235, 16%, 14%);
+  --Black: hsl(234, 17%, 12%);
+}
+
+* {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+body {
+  background-color: var(--Very-dark-blue);
+  background-image: url(../images/bg-stars.svg);
+  background-size: cover;
+}
+
+.counter-title {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+  color: var(--White);
+}
+
+.counter-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+    width: 100%;
+  background-image: url(../images/pattern-hills.svg);
+  background-size: cover;
+  position: absolute;
+  top: 84.5%;
+}
+
+.socialmedia-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.pinterest {
+  margin-left: 2rem;
+}
+
+.instagram {
+  margin-left: 2rem;
+}
+
+.attribution {
+  margin-top: 3rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
