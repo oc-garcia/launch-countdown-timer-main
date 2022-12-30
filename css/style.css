@@ -25,8 +25,10 @@ body {
 .counter-title {
   display: flex;
   justify-content: center;
-  margin: 3rem 0;
+  margin: 5rem 0;
   color: var(--White);
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
 }
 
 .counter-card {
@@ -34,8 +36,32 @@ body {
   justify-content: space-around;
 }
 
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.counter {
+  background-color: var(--Grayish-blue);
+  width: 8rem;
+  height: 5rem;
+  color: var(--Soft-red);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.label {
+  color: var(--Grayish-blue);
+  margin-top: 1rem;
+  letter-spacing: 0.2rem;
+}
+
 footer {
-    width: 100%;
+  width: 100%;
   background-image: url(../images/pattern-hills.svg);
   background-size: cover;
   position: absolute;
@@ -61,7 +87,8 @@ footer {
   margin-top: 3rem;
   font-size: 11px;
   text-align: center;
+  color: var(--White);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--Soft-red);
 }
