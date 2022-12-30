@@ -43,7 +43,7 @@ body {
 }
 
 .counter {
-  background-color: var(--Grayish-blue);
+  background-color: var(--Dark-desaturated-blue);
   width: 8rem;
   height: 5rem;
   color: var(--Soft-red);
