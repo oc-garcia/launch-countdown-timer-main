@@ -3,7 +3,8 @@ let hoursField = document.getElementById("hours");
 let minutesField = document.getElementById("minutes");
 let secondsField = document.getElementById("seconds");
 
-var countDownDate = new Date("Nov 18, 2023 13:20:00").getTime();
+//var countDownDate = new Date("Nov 18, 2023 13:20:00").getTime();
+var countDownDate = new Date("Jan 1, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -28,6 +29,6 @@ var x = setInterval(function () {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("expired").innerHTML = "EXPIRED";
+    document.getElementById("expired").innerHTML = "HAPPY NEW YEAR!";
   }
 }, 1000);
