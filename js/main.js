@@ -33,8 +33,7 @@ var x = setInterval(function () {
   }
 }, 1000);
 
-let customDate = document.getElementById("changeDate").value;
-
-function changeDate(customDate) {
-  console.log(customDate);
+function changeDate() {
+  let customDate = document.getElementById("changeDate");
+  console.log(customDate.value);
 }
