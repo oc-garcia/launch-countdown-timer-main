@@ -102,7 +102,7 @@ function changeDate() {
   }
 
   if (dayStatus == true && monthStatus == true && yearStatus == true) {
-    countDownDate = new Date("${customMonthString} ${customDay.value}, ${customYear.value} 00:00:00").getTime();
+    countDownDate = new Date(`${customMonthString} ${customDay.value}, ${customYear.value} 00:00:00`).getTime();
   }
   console.log(customDay.value);
   console.log(customMonthString);
