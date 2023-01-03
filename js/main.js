@@ -32,10 +32,14 @@ var x = setInterval(function () {
   }
 }, 1000);
 
+let submitChanges = document.getElementById("submitChanges");
+//submitChanges.addEventListener("submit", changeDate);
+
 function changeDate() {
   let customDay = document.getElementById("changeDay");
   let customMonth = document.getElementById("changeMonth");
   let customYear = document.getElementById("changeYear");
+
   let dayStatus = false;
   let monthStatus = false;
   let yearStatus = false;
@@ -104,10 +108,4 @@ function changeDate() {
   if (dayStatus == true && monthStatus == true && yearStatus == true) {
     countDownDate = new Date(`${customMonthString} ${customDay.value}, ${customYear.value} 00:00:00`).getTime();
   }
-  console.log(customDay.value);
-  console.log(customMonthString);
-  console.log(customYear.value);
-  console.log(dayStatus);
-  console.log(monthStatus);
-  console.log(yearStatus);
 }

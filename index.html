@@ -56,7 +56,14 @@
 
               <label for="changeYear">Select year</label>
               <input type="number" name="" min="2023" id="changeYear" />
+              <br />
+              <p>* Hour will be set to 00:00:00.</p>
             </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" id="submitChanges" onclick="changeDate()">
+                Save changes
+              </button>
             </div>
           </div>
         </div>
