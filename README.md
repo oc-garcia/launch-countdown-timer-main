@@ -10,7 +10,7 @@ https://oc-garcia.github.io/launch-countdown-timer-main/
 https://github.com/oc-garcia/launch-countdown-timer-main
 
 ## Project Image
-![](./design/Project_concluded.png#vitrinedev)
+![](./images/Screenshot%20from%202023-01-03%2017-09-45.png#vitrinedev)
 
 ## Project details
-Calculator app made as a challenge for Front-End Mentor. 
+Countdown timer that can be customized, made as a challenge for Front-End Mentor. 
